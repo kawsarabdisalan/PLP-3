@@ -99,3 +99,11 @@ Paramaters: Paramaters are stored in stacks as the copy of the paramater is stor
 Local variables: Local variables are stored in stacks. <br>
 Overall, functions with values like primitives are stored in stacks while references and pointers are stored in heaps. 
 
+Scoping rules:
+Local Variables: They are declared in a block and don't exist outside of the block. 
+<br>
+Global variables - They are declared at the top of the program outside of all of the functions and blocks and are available throughout the entire program.
+
+
+Some side effects in C++ include: modifiying variables, changing data structures, etc. 
+
