@@ -104,3 +104,6 @@ Scoping rules:
 - Local Variables: They are declared in a block and don't exist outside of the block. 
 - Global variables - They are declared at the top of the program outside of all of the functions and blocks and are available throughout the entire program.
 
+Sources: 
+- https://www.w3schools.com/cpp/cpp_stacks.asp
+- https://www.w3schools.com/cpp/cpp_pointers.asp
