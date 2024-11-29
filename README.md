@@ -93,17 +93,14 @@ C++ functions can be passed by references and passed by values. By default, C++ 
 (int &x) //passed by reference
 
 ```
-Arguments: Arguments that are passed by value are stored in stacks. When you pass an integer, a copy of it is stored in a stack. <br> 
+Where are values stored in C++: 
+- Arguments: Arguments that are passed by value are stored in stacks. When you pass an integer, a copy of it is stored in a stack.
 When an argument is passed by reference, the reference is stored in a stack but the variable is stored in a heap. <br>
-Paramaters: Paramaters are stored in stacks as the copy of the paramater is stored in a stack. <br>
-Local variables: Local variables are stored in stacks. <br>
+- Paramaters: Paramaters are stored in stacks as the copy of the paramater is stored in a stack. <br>
+- Local variables: Local variables are stored in stacks. <br>
 Overall, functions with values like primitives are stored in stacks while references and pointers are stored in heaps. 
 
-Scoping rules:
-Local Variables: They are declared in a block and don't exist outside of the block. 
-<br>
-Global variables - They are declared at the top of the program outside of all of the functions and blocks and are available throughout the entire program.
-
-
-Some side effects in C++ include: modifiying variables, changing data structures, etc. 
+Scoping rules: 
+- Local Variables: They are declared in a block and don't exist outside of the block. 
+- Global variables - They are declared at the top of the program outside of all of the functions and blocks and are available throughout the entire program.
 
