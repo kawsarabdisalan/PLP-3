@@ -1,5 +1,6 @@
 # PLP-3
 
+### Syntax
 To declare a syntax in C++, you must specificy the name of the function followed by a closed parenthesis. <br>
 ```
 void myFunction{
@@ -9,6 +10,7 @@ void myFunction{
   - myFunction is the name of the function
   - Void means that function does not have a return value. 
   - You can place your code in between the curly brackets.
+### Functions
 To call a function, you can write the function name followed by ().
   ```
   #include <iostream>
@@ -43,6 +45,7 @@ There are some rules when it comes to calling a function.
   cout <<"This is my function!"<<endl; //this will print out: This is my function!
   }
   ```
+### Recurssions
 In C++, this language does support recurssions functions. This example shows a recurssion of 5. Once it reaches 0, the function will end and return the results. 
 ```
 #include <iostream>
@@ -64,6 +67,7 @@ using namespace std;
     }
 
 ```
+### Paramaters
 C++ allows functions to accept multiple paramaters. Paramaters allows information to be passed down throughout the program. It can act as variables inside of functions. 
 The syntax for paramaters is that it is specificed after the function name inside of paranthesis and you can add as many paramaters as you want as long as it is seperated by commas. 
 
@@ -81,7 +85,7 @@ myFunction("Teale",14);
 //will print out: "Abby Alex. 20 years old. Teale Alex. 14 years old."
 ```
 If you want to add different types of data in the paramaters, make sure that the function call must have same number of arguments as paramaters and arguments must be passed down in the same order. 
-
+### Passing values in C++
 In C++, technically you can only return one value at a time but there are ways to get around this by using pointers, structures, and arrays. <br>
 Pointers: Pass the arguments with their address and make changes through pointers. This allows values to change into the orignal arguments. <br>
 Structures: Define a structure with two integer variables and storing greater and smaller values in those variables. Pass the values using the structures. <br>
@@ -93,6 +97,8 @@ C++ functions can be passed by references and passed by values. By default, C++ 
 (int &x) //passed by reference
 
 ```
+
+### Values in C++
 Where are values stored in C++: 
 - Arguments: Arguments that are passed by value are stored in stacks. When you pass an integer, a copy of it is stored in a stack.
 When an argument is passed by reference, the reference is stored in a stack but the variable is stored in a heap. <br>
